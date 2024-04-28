@@ -5,9 +5,32 @@ import "@/styles/globals.css";
 ---
 
 <Layout title="Frontend Mentor | Fylo landing page with dark theme and features grid">
-  <main></main>
+  <main>
+    <!-- Easy Access Section -->
+    <section class="easyAccess bg-[#1B2330] rounded-[0.5625rem] xl:w-[53.9375rem] xl:h-[17.1875rem] xl:mx-[18.06rem] mx-[1.25rem] px-[1.75rem] pt-10 pb-[2.31rem] xl:px-[4.81rem] xl:pt-[2.63rem] xl:pb-[2.56rem] flex flex-col gap-8 xl:gap-[2.36rem] relative xl:-bottom-28 -bottom-44">
+      <!-- Text -->
+      <div class="flex flex-col text-center gap-4 text-[#fff]">
+        <h2 class="text-lg leading-6 font-bold font-Raleway xl:text-[2rem] xl:leading-[3rem]">Get early access today</h2>
+        <p class="w-[17.5rem] xl:w-[42.0625rem] text-sm font-normal font-OpenSans leading-[1.3125rem]">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
+      </div>
+      <!-- Buttons -->
+      <div class="flex flex-col gap-6 xl:flex-row xl:gap-[1.81rem]">
+        <!-- Email Input -->
+        <input type="email" name="emailBtn" id="emailBtn" placeholder="email@example.com" class="outline-none w-[17.5rem] h-12 pl-[1.81rem] font-OpenSans font-normal leading-normal text-[0.625rem] text-[#C0C0C0] bg-[#fff] xl:w-[30rem] rounded-3xl">
+        <button type="button" class="outline-none w-[17.5rem] h-12 text-bold text-sm leading-normal text-[#fff] rounded-3xl" id="submitBtn">Get Started For Free</button>
+      </div>
+    </section>
+  </main>
   <!-- Footer -->
   <Footer />
 </Layout>
 
-<style></style>
+<style>
+  .easyAccess {
+    box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.25);
+  }
+  #submitBtn {
+    background: linear-gradient(132deg, #63E1D9, #34A0CD );
+ filter: drop-shadow(2px 3px 6px rgba(0, 0, 0, 0.16));
+  }
+</style>
