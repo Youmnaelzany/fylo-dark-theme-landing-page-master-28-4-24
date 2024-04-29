@@ -16,8 +16,8 @@ This is a solution to the [Fylo dark theme landing page challenge on Frontend Me
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Youmnaelzany/fylo-dark-theme-landing-page-master-28-4-24.git)
+- Live Site URL: [Add live site URL here](https://fylodarkthemelandingpage284.netlify.app/)
 
 ## My process
 
